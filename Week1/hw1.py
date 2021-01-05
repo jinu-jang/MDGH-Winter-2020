@@ -91,19 +91,19 @@ if __name__ == '__main__':
         print('python3 week1.py <원하는 함수> <원하는 매개변수>\n형식으로 넣어주세요')
 
     elif sys.argv[1] == 'left':
-        leftTriangle(sys.argv[2])
+        leftTriangle(int(sys.argv[2]))
     elif sys.argv[1] == 'right':
-        rightTriangle(sys.argv[2])
+        rightTriangle(int(sys.argv[2]))
     elif sys.argv[1] == 'equi':
-        equiTriangle(sys.argv[2])
+        equiTriangle(int(sys.argv[2]))
     elif sys.argv[1] == 'rect':
         if len(sys.argv) < 4:
             print('python3 week1.py rect <width> <height>\n형식으로 넣어주세요')
         else:
-            rectangle(sys.argv[2], sys.argv[3])
+            rectangle(int(sys.argv[2]), int(sys.argv[3]))
     elif sys.argv[1] == 'square':
-        square(sys.argv[2])
+        square(int(sys.argv[2]))
     elif sys.argv[1] == 'number':
-        numberTriangle(sys.argv[2])
+        numberTriangle(int(sys.argv[2]))
     else:
         print('left, right, equi, rect, square, number 중 하나를 선택해주세요!')
