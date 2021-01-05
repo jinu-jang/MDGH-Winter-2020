@@ -8,7 +8,7 @@
 ### 실행법
 1. 터미널에서 소스 파일이 들어있는 폴더로 이동
 `cd C:\src\MDGH-Winter-2020\Week1`
-2. 다음 커맨드 중 필요 커맨드 실행
+2. 다음 커맨드 중 필요 커맨드 실행\
 `python hw1.py left 8`\
 `python hw1.py right 5`\
 `python hw1.py equi 4`\
